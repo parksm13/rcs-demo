@@ -15,6 +15,12 @@ class CreateStoresTable extends Migration
     {
         Schema::create('stores', function (Blueprint $table) {
             $table->increments('id');
+	    $table->string('name');
+	    $table->string('address');
+	    
+	    // this type is just a placeholder for location data
+	    $table->string('location');
+	    
             $table->timestamps();
         });
     }
