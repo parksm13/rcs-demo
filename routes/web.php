@@ -25,3 +25,5 @@ Route::get('register', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('store', 'StoreController@index')->name('store');
