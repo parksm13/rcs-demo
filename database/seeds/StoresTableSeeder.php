@@ -12,21 +12,27 @@ class StoresTableSeeder extends Seeder
     public function run()
     {
         DB::table('stores')->insert([
-	    'name' => 'Store 1',
-	    'address' => '123 Main St.',
-	    'location' => 'GPS Coordinates'
-	]);
+	    	'store_name' => 'Walmart',
+	    	'address' => '210 Greenville Blvd SW, Greenville, NC 27834',
+	    	'location' => '35.577475,-77.387267'
+		]);
 
         DB::table('stores')->insert([
-	    'name' => 'Store 2',
-	    'address' => '456 Main St.',
-	    'location' => 'GPS Coordinates'
-	]);
+	    	'name' => 'Food Lion',
+	    	'address' => '2460 Stantonsburg Rd, Greenville, NC 27835',
+	    	'location' => '35.606880,-77.413766'
+		]);
 
         DB::table('stores')->insert([
-	    'name' => 'Store 3',
-	    'address' => '789 Main St.',
-	    'location' => 'GPS Coordinates'
-	]);
+	    	'name' => 'Harris Teeter',
+	    	'address' => '1400 Charles Blvd, University Center, Greenville, NC 27858',
+	    	'location' => '35.600766,-77.372418'
+		]);
+	
+		DB::table('stores')->insert([
+	    	'name' => 'Target',
+	    	'address' => '3040 S Evans St, Greenville, NC 27834',
+	    	'location' => '35.579083,-77.383326'
+		]);
     }
 }
