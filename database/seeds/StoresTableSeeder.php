@@ -18,19 +18,19 @@ class StoresTableSeeder extends Seeder
 		]);
 
         DB::table('stores')->insert([
-	    	'name' => 'Food Lion',
+	    	'store_name' => 'Food Lion',
 	    	'address' => '2460 Stantonsburg Rd, Greenville, NC 27835',
 	    	'location' => '35.606880,-77.413766'
 		]);
 
         DB::table('stores')->insert([
-	    	'name' => 'Harris Teeter',
+	    	'store_name' => 'Harris Teeter',
 	    	'address' => '1400 Charles Blvd, University Center, Greenville, NC 27858',
 	    	'location' => '35.600766,-77.372418'
 		]);
 	
 		DB::table('stores')->insert([
-	    	'name' => 'Target',
+	    	'store_name' => 'Target',
 	    	'address' => '3040 S Evans St, Greenville, NC 27834',
 	    	'location' => '35.579083,-77.383326'
 		]);
