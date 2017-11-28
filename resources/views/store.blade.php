@@ -32,8 +32,10 @@
                     {{ session('status') }}
                   </div>
                   @endif
-		  {{ $store }}
-		  <p>Select Store</p>
+		  <ul class="list-group">
+		    <li class="list-group-item">{{ $store->address }}</li>
+		    <li class="list-group-item">{{ $store->location }}</li>
+		  </ul>
 		</div>
               </div>
             </div>
