@@ -14,11 +14,26 @@ class CreateUsersTable extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->increments('user_id');
-            $table->string('username')->unique();
+	    // added by framework
+	    $table->increments('id');
+	    $table->string('name');
+	    $table->string('email')->unique();
+
+	    // can't have more than one auto column
+            // $table->increments('user_id');
+
+	    // added for rcs-demo
+            $table->string('username')->unique()->default('user');
+
+	    // added by framework
             $table->string('password');
-            $table->date('creation_date');
+
+	    // added for rcs-demo
+            $table->date('creation_date')->default('1970-01-01');
+
+	    // added by framework
             $table->rememberToken();
+	    $table->timestamps();
         });
     }
 
