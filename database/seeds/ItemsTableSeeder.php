@@ -12,7 +12,7 @@ class ItemsTableSeeder extends Seeder
     public function run()
     {
         DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '1',
 	    	'price' => 2.50,
 	    	'creation_date' => '2017-11-25',
 	    	'item_name' => 'Milk, 1 Gallon',
@@ -20,7 +20,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 
     	DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '2',
 	    	'price' => 2.00,
 	    	'creation_date' => '2017-11-10',
 	    	'item_name' => 'Red Delicious Apples',
@@ -28,7 +28,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '3',
 	    	'price' => 3.50,
 	    	'creation_date' => '2017-10-15',
 	    	'item_name' => 'Potato Chips',
@@ -36,7 +36,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '4',
 	    	'price' => 6.50,
 	    	'creation_date' => '2017-09-20',
 	    	'item_name' => 'LED Lightbulb',
@@ -44,7 +44,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '5',
 	    	'price' => 8.00,
 	    	'creation_date' => '2017-10-08',
 	    	'item_name' => 'Tylenol',
@@ -52,7 +52,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '6',
 	    	'price' => 3.00,
 	    	'creation_date' => '2017-11-20',
 	    	'item_name' => 'Whole Wheat Bread',
@@ -60,7 +60,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '7',
 	    	'price' => 3.00,
 	    	'creation_date' => '2017-10-28',
 	    	'item_name' => 'Cheerios Cereal',
@@ -68,7 +68,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '8',
 	    	'price' => 3.50,
 	    	'creation_date' => '2017-10-10',
 	    	'item_name' => 'Eggo Frozen Waffles',
@@ -76,7 +76,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '9',
 	    	'price' => 2.00,
 	    	'creation_date' => '2017-11-17',
 	    	'item_name' => 'Banana',
@@ -84,7 +84,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '10',
 	    	'price' => 5.00,
 	    	'creation_date' => '2017-11-14',
 	    	'item_name' => 'Popcorn',
@@ -92,7 +92,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 	
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '11',
 	    	'price' => 4.00,
 	    	'creation_date' => '2017-11-21',
 	    	'item_name' => 'Organic Apples',
@@ -100,7 +100,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '12',
 	    	'price' => 3.50,
 	    	'creation_date' => '2017-11-21',
 	    	'item_name' => 'Fruit Loops Cereal',
@@ -108,7 +108,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '13',
 	    	'price' => 14.00,
 	    	'creation_date' => '2017-11-25',
 	    	'item_name' => 'Steak',
@@ -116,7 +116,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '14',
 	    	'price' => 4.00,
 	    	'creation_date' => '2017-10-20',
 	    	'item_name' => 'Dasani Bottled Water, 12 pack',
@@ -124,7 +124,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '15',
 	    	'price' => 2.00,
 	    	'creation_date' => '2017-11-22',
 	    	'item_name' => '2% Milk, 1/2 Gallon',
@@ -132,7 +132,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '16',
 	    	'price' => 1.00,
 	    	'creation_date' => '2017-10-10',
 	    	'item_name' => 'Coca Cola, 2 Liter',
@@ -140,7 +140,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '17',
 	    	'price' => 2.50,
 	    	'creation_date' => '2017-10-15',
 	    	'item_name' => 'Crest Toothpaste',
@@ -148,7 +148,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '18',
 	    	'price' => 14.00,
 	    	'creation_date' => '2017-08-10',
 	    	'item_name' => 'Bounty Paper Towels',
@@ -156,7 +156,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '19',
 	    	'price' => 1.50,
 	    	'creation_date' => '2017-08-20',
 	    	'item_name' => 'Campbells Soup',
@@ -164,7 +164,7 @@ class ItemsTableSeeder extends Seeder
 		]);
 		
 		DB::table('items')->insert([
-	    	'barcode' => '123456789',
+	    	'barcode' => '20',
 	    	'price' => 3.50,
 	    	'creation_date' => '2017-11-10',
 	    	'item_name' => 'Oreo Cookies',
