@@ -1,5 +1,6 @@
 body, html {
     height: 100%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+    /* Commenting this line out does not remove the background-image. Hmm... */
+    /* background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33)); */
 }
