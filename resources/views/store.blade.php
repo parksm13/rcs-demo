@@ -20,7 +20,7 @@
     <div class="col-md-9">
     @foreach ($stores as $store)
         <div class="profile-content">
-            Some user related content goes here...
+           
         </div>
         @endforeach
     </div>
