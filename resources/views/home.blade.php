@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+
+
+<!---
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
@@ -14,7 +17,7 @@
                         </div>
                     @endif
 		   
-                    <p>You are logged in!</p>
+                    <p>You are logged in! No I am not</p>
 
 		    <p>Select Store</p>
                 </div>
@@ -22,4 +25,6 @@
         </div>
     </div>
 </div>
+
+-->
 @endsection
