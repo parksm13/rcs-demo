@@ -3,7 +3,7 @@
 @section('content')
 
 <!-- Custom styles for this template -->
-<link href="https://getbootstrap.com/docs/4.0/examples/jumbotron/jumbotron.css" rel="stylesheet">
+<!-- <link href="https://getbootstrap.com/docs/4.0/examples/jumbotron/jumbotron.css" rel="stylesheet"> -->
 <main role="main">
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
