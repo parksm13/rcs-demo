@@ -12,7 +12,7 @@ class StoresTableSeeder extends Seeder
     public function run()
     {
         DB::table('stores')->insert([
-	    	'name' => 'Walmart',
+	    	'store_name' => 'Walmart',
 	    	'address' => '210 Greenville Blvd SW, Greenville, NC 27834',
 	    	'location' => '35.577475,-77.387267'
 		]);
