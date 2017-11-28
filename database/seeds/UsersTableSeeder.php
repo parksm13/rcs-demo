@@ -11,24 +11,24 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-		$Testerid1 = DB::table("users")->select("id")->where("username","Tester1")->get();
+		$Testerid1 = DB::table("users")->select("id")->where("username","Tester1@junk.com")->get();
 		if(sizeof($Testerid1) == 0){
 			DB::table('users')->insert([
 				"name" => "Tester1",
 				"email" => "tester1@junk.com",
-				"username" => "Tester1",
-				"password" => "P@SSw0rd",
+				"username" => "Tester1@junk.com",
+				"password" => Hash::make('P@SSw0rd'),
 				"creation_date" => "2017-11-11"
 			]);
 		}
 		
-		$Testerid2 = DB::table("users")->select("id")->where("username","Tester2")->get();
+		$Testerid2 = DB::table("users")->select("id")->where("username","Tester2@junk.com")->get();
 		if(sizeof($Testerid2) == 0){
 			DB::table('users')->insert([
 				"name" => "Tester2",
 				"email" => "tester2@junk.com",
-				"username" => "Tester2",
-				"password" => "P@SSw0rd",
+				"username" => "Tester2@junk.com",
+				"password" => Hash::make("P@SSw0rd"),
 				"creation_date" => "2017-11-11"
 			]);
 		}

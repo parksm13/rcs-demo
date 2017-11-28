@@ -11,7 +11,7 @@ class PaymentMethodTableSeeder extends Seeder
      */
     public function run()
     {
-		$Testerid1 = DB::table("users")->select("id")->where("username","Tester1")->get();
+		$Testerid1 = DB::table("users")->select("id")->where("username","Tester1@junk.com")->get();
 		
         DB::table('payment_method')->insert([
 	    	"type" => "moneyCard",
