@@ -9,22 +9,38 @@
         <ul class="nav">
           @foreach ($stores as $store)
           <li>
-          <a href="#{{ $store->store_name }}" data-toggle="tab"> 
-            <i class="fa fa-building-o" aria-hidden="true"></i> {{ $store->store_name }}
-          </a>
-        </li>
-        @endforeach
+            <a href="#{{ $store->store_name }}" data-toggle="tab"> 
+              <i class="fa fa-building-o" aria-hidden="true"></i> {{ $store->store_name }}
+            </a>
+          </li>
+          @endforeach
         </ul>
       </div>
     </div>
     <div class="col-md-9">
-    @foreach ($stores as $store)
-        <div class="profile-content">
-           <p> {{ $store }} </p>
-        </div>
-        @endforeach
+      @foreach ($stores as $store)
+      <div class="profile-content">
+	<div class="container">
+	  <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="panel panel-default">
+		<div class="panel-heading">{{ $store->store_name }}</div>
+
+		<div class="panel-body">
+                  @if (session('status'))
+                  <div class="alert alert-success">
+                    {{ session('status') }}
+                  </div>
+                  @endif
+		  {{ $store }}
+		  <p>Select Store</p>
+		</div>
+              </div>
+            </div>
+	  </div>
+	</div>
+      </div>
+      @endforeach
     </div>
-</div>
-@endsection
-
-
+  </div>
+  @endsection
