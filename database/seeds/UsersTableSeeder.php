@@ -12,7 +12,7 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
 		$Testerid1 = DB::table("users")->select("id")->where("username","Tester1")->get();
-		if(empty($Testerid1)){
+		if(sizeof($Testerid1) == 0){
 			DB::table('users')->insert([
 				"name" => "Tester1",
 				"email" => "tester1@junk.com",
@@ -23,7 +23,7 @@ class UsersTableSeeder extends Seeder
 		}
 		
 		$Testerid2 = DB::table("users")->select("id")->where("username","Tester2")->get();
-		if(empty($Testerid2)){
+		if(sizeof($Testerid2) == 0){
 			DB::table('users')->insert([
 				"name" => "Tester2",
 				"email" => "tester2@junk.com",

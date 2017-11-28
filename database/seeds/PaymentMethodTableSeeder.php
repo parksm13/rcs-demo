@@ -19,7 +19,7 @@ class PaymentMethodTableSeeder extends Seeder
 			"security_code" => "000",
 			"expiration_date" => "2017-11-11",
 			"creation_date" => "2017-11-11",
-			"owner_id" => $Testerid1,
+			"owner_id" => $Testerid1[0]->id
 		]);
     }
 }
