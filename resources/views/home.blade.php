@@ -12,7 +12,7 @@
     <div class="container">
       <h1 class="display-3">Welcome to RCS!</h1>
       <p>Explore all the ways to shop for the items you love!</p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      <p><a class="btn btn-primary btn-lg" href="/about" role="button">Learn more &raquo;</a></p>
     </div>
   </div>
 
@@ -29,12 +29,12 @@
       <div class="col-md-4">
 	<h2>Manage My Lists</h2>
 	<p>Forgetting things is a thing of the past! </p>
-	<p><a class="btn btn-secondary" href="#" role="button">Look At My Lists &raquo;</a></p>
+	<p><a class="btn btn-secondary" href="/list" role="button">Look At My Lists &raquo;</a></p>
       </div>
       <div class="col-md-4">
 	<h2>Manage My Settings</h2>
 	<p>Make everything just for you!</p>
-	<p><a class="btn btn-secondary" href="#" role="button">Change My Settings &raquo;</a></p>
+	<p><a class="btn btn-secondary" href="/settings" role="button">Change My Settings &raquo;</a></p>
       </div>
     </div>
 
